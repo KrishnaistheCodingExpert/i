@@ -1,0 +1,48 @@
+.heading h3{
+    display: inline;
+    letter-spacing: 4px;
+}
+
+.heading
+{
+    width: 100%;
+    text-align: center;
+}
+
+#footer
+{
+    bottom: 0;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+@keyframes color{
+    from{color: green;}
+    to{color: yellow;}
+    from{background-color: rgb(255, 0, 255);}
+    to{background-color: brown;}
+}
+
+.modal-body img{
+    width: 45%;
+    display: inline-block;
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+video{
+    background: url("game_console.png");
+    background-size: cover;
+    padding: 22px;
+    background-position: center;
+}
